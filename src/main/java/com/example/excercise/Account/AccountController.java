@@ -27,7 +27,6 @@ public class AccountController {
     public List<Account> postUserName(@RequestBody Account account) {
         return accountService.postAccount(account);
     }
-
     @PutMapping
     public List<Account> editUserName(@RequestBody Account account) {
         return accountService.editAccount(account);
